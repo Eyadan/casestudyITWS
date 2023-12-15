@@ -1,0 +1,53 @@
+header{
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+    
+}
+
+.nav-item{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover {
+    transform: scale(1.1);
+}
+
+
+
+.color-overlay{
+    background-color:rgba(0,0,0,0.4);
+    min-height: 60vh;
+}
+.singleCol{
+    max-width: 750px;
+    
+}
+footer{
+    background-color: #3a3a3a;
+    
+}
+footer a{
+   color: white;
+
+}
+footer:hover{
+   color:#dfdfdf;
+   
+}
+
+
+
+
+@media(max-width:767.98px){
+    .color-overlay{
+        min-height: 30vh;
+    }
+}
+
